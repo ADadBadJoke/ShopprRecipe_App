@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shoppr-Recipe_App</string>
+    <string name="ShoppingListText">Shopping List</string>
+    <string name="SavedRecipesText">Saved Recipes</string>
+    <string name="NewRecipeText">New Recipe</string>
+    <string name="WelcomeToShoppr">Welcome To Shoppr!!</string>
+</resources>
