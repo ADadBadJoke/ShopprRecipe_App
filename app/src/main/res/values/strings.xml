@@ -4,4 +4,5 @@
     <string name="SavedRecipesText">Saved Recipes</string>
     <string name="NewRecipeText">New Recipe</string>
     <string name="WelcomeToShoppr">Welcome To Shoppr!!</string>
+    <string name="AppTitleString">Shoppr</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.example.shoppr_recipe_app;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -27,21 +28,24 @@ public class MainActivity extends AppCompatActivity {
         openNewRecipe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent NewRecipeIntent = new Intent(MainActivity.this, New_Recipe_Activity.class);
+                startActivity(NewRecipeIntent);
             }
         } );
 
         openShoppingList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent ShoppingListIntent = new Intent(MainActivity.this, Shopping_List_Activity.class);
+                startActivity(ShoppingListIntent);
             }
         } );
 
         openSavedRecipes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent SavedRecipesIntent = new Intent(MainActivity.this, Saved_Recipes_Activity.class);
+                startActivity(SavedRecipesIntent);
             }
         });
     }
