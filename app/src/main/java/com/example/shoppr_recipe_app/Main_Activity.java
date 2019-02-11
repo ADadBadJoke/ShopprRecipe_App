@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         openSavedRecipes = findViewById(R.id.savedRecipes);
         welcomeText= findViewById(R.id.welcomeText);
 
-
         openNewRecipe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
