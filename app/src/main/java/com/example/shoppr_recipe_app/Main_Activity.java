@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class Main_Activity extends AppCompatActivity {
 
     private Button openNewRecipe;
     private Button openShoppingList;
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         openNewRecipe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent NewRecipeIntent = new Intent(MainActivity.this, New_Recipe_Activity.class);
+                Intent NewRecipeIntent = new Intent(Main_Activity.this, New_Recipe_Activity.class);
                 startActivity(NewRecipeIntent);
             }
         } );
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         openShoppingList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ShoppingListIntent = new Intent(MainActivity.this, Shopping_List_Activity.class);
+                Intent ShoppingListIntent = new Intent(Main_Activity.this, Shopping_List_Activity.class);
                 startActivity(ShoppingListIntent);
             }
         } );
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         openSavedRecipes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent SavedRecipesIntent = new Intent(MainActivity.this, Saved_Recipes_Activity.class);
+                Intent SavedRecipesIntent = new Intent(Main_Activity.this, Saved_Recipes_Activity.class);
                 startActivity(SavedRecipesIntent);
             }
         });

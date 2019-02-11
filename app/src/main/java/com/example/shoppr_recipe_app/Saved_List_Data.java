@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class saved extends AppCompatActivity {
+public class Saved_List_Data extends AppCompatActivity {
     TextView ingredientData;
     TextView instructionData;
 
